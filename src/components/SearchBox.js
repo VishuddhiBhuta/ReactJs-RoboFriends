@@ -5,17 +5,17 @@ import React from "react";
  *      Containers / App
  *
  * Child
- *      No Child
+ *
  */
 
-const SearchBox = ({ searchChange }) => {
+const SearchBox = ({ onSearchChange }) => {
   return (
     <div className="pa2 mb4">
       <input
         type="search"
         placeholder="Search Robots"
         className="pa3 ba b--green bg-lightest-blue mb3"
-        onChange={searchChange}
+        onChange={onSearchChange}
       />
     </div>
   );

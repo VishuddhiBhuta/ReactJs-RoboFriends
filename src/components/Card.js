@@ -5,7 +5,7 @@ import React from "react";
  *      CardList
  *
  * Child
- *      No Child
+ *
  */
 
 const Card = ({ id, name, email }) => {

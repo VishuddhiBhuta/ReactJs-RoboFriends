@@ -100,7 +100,7 @@ class App extends Component {
       return (
         <div className="tc">
           <h1 className="mb4 mt5">My RoboFriends!</h1>
-          <SearchBox searchChange={this.onSearchChange} />
+          <SearchBox onSearchChange={this.onSearchChange} />
           <Scroll>
             <CardList robots={filteredRobots} />
           </Scroll>
